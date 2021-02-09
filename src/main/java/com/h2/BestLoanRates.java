@@ -18,7 +18,7 @@ public class BestLoanRates {
 
         // Liest die Eingabe des Nutzers ein. Pausiert, solange kein Input erfolgt ist
         name = scanner.nextLine();
-        System.out.print("Hello " + name);
+        System.out.println("Hello " + name);
 
         // Liest die nächste Eingabe des Nutzers ein
         System.out.println("Enter the loan term (in years)");
@@ -35,7 +35,7 @@ public class BestLoanRates {
 
     }
 
-    public static Float getRates(int loanTermInYears) {
+    public static float getRates(int loanTermInYears) {
         if (bestRates.containsKey(loanTermInYears)) {
             return bestRates.get(loanTermInYears);
         } else
