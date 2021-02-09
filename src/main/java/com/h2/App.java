@@ -12,13 +12,12 @@ public class App {
         return number * 2;
     }
 
-    public static int add(int[] numbers) {
+    private static int add(int[] numbers) {
         int sum = 0;
 
-        for(int i = 0; i < numbers.length-1; i++) {
+        for(int i = 0; i < numbers.length; i++) {
             sum += numbers[i];
         }
-
         return sum;
     }
 }
