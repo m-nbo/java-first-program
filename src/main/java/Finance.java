@@ -60,7 +60,7 @@ public class Finance {
 
         // Ausgabe der Bedienanweisung bei Eingabe der falschen Anzahl von Argumenten
         if(!isValidCommand) {
-            commandsToUsage.get(args[0]);
+            System.out.println(commandsToUsage.get(args[0]));
             return;
         }
 
