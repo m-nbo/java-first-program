@@ -1,10 +1,12 @@
-package com.h2;
+import com.h2.BestLoanRates;
+import com.h2.MortgageCalculator;
+import com.h2.SavingsCalculator;
 
 import java.util.Arrays;
 import java.util.Map;
 
 public class Finance {
-    
+
     public static final String BEST_LOAN_RATES = "bestLoanRates";
     public static final String SAVINGS_CALCULATOR = "savingsCalculator";
     public static final String MORTGAGE_CALCULATOR = "mortgageCalculator";
